@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://style-sheet.netlify.app/styles.css" />
-    <link rel="stylesheet" href="./login.css" />
-    <title>Login</title>
+    <link rel="stylesheet" href="../login/login.css" />
+    <title>Sign Up</title>
   </head>
   <body class="bg-blueblack-900">
     <div
@@ -21,8 +21,16 @@
         class="login-container display-flex flex-column justify-content-center"
       >
         <h1 class="login-title font-size-2xl text-center text-blueblack-50">
-          Login
+          Sign up
         </h1>
+        <div class="input input-default">
+          <label
+            class="display-flex flex-column font-weight-700 font-size-rg text-blueblack-50"
+          >
+            Name
+            <input type="text" placeholder="Enter your Name..." />
+          </label>
+        </div>
         <div class="input input-default">
           <label
             class="display-flex flex-column font-weight-700 font-size-rg text-blueblack-50"
@@ -39,13 +47,21 @@
             <input type="text" placeholder="Enter your password..." />
           </label>
         </div>
-        <button class="btn btn-primary">Login</button>
+        <div class="input input-default">
+          <label
+            class="display-flex flex-column font-weight-700 font-size-rg text-blueblack-50"
+          >
+            Confirm Password
+            <input type="text" placeholder="Confirm your password..." />
+          </label>
+        </div>
+        <button class="btn btn-primary">Sign Up</button>
         <p class="alternate-option text-blueblack-50 text-right">
-          Don't have an account?
+          Already have an account?
           <a
             class="text-underline text-blue-500"
-            href="../../Components/signup/signup.html"
-            >Sign up</a
+            href="../../Components/login/login.html"
+            >Login</a
           >
         </p>
       </div>

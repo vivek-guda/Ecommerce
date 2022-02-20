@@ -2,10 +2,17 @@
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
+  position: relative;
+}
+
+.back-to-home {
+  position: absolute;
+  top: 50px;
+  right: 50px;
 }
 
 .login-title {
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .login-container {
@@ -30,5 +37,5 @@
 }
 
 .alternate-option {
-  margin: 0 2rem;
+  margin: 0 2rem 3rem;
 }
